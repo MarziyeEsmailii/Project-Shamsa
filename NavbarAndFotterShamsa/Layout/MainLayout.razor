@@ -1,0 +1,267 @@
+﻿@inherits LayoutComponentBase
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/yekanBakhFonts/fontface.css" />
+    <link rel="stylesheet" href="./assets/icons/boxicons/css/boxicons.min.css" />
+    <link rel="stylesheet" href="./assets/css/swiper.bundle.min.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>فروشگاه شمسا</title>
+</head>
+
+<body class="bg-slate-50 font-yb font-medium">
+    <header class="bg-white border-b-1 shadow-md shadow-slate-200 fixed top-0 w-full z-50">
+        <div class="container mx-auto h-auto w-full flex items-center justify-between">
+            <div class="logo">
+                <a href="index.html" class="flex py-3 px-2 flex-col gap-3 justify-center items-center">
+                    <img class="w-24 h-24 border-b-2 rounded-full" src="./assets/images/logo.jpg" alt="شمسا لوگو" />
+                    <span class="font-yb-fat text-2xl text-slate-500">
+                        <b> شهر ملزومات اسماعیلی </b>
+                    </span>
+                </a>
+            </div>
+            <div class="search-wrapper w-2/5 border-2 rounded-lg overflow-hidden">
+                <form action="#" class="flex">
+                    <input
+                        class="w-full px-4 py-3 border-none ring-0 outline-non placeholder:font-normal placeholder:text-xl"
+                        type="search" name="search" id="search"
+                        placeholder="نام ، برند، مشخصات  محصول مورد نظر را وارد کنید" />
+                    <button class="px-4 py-3 bg-primary flex justify-center items-center" type="submit">
+                        <i class="bx bx-search-alt bx-lg text-slate-200"></i>
+                    </button>
+                </form>
+            </div>
+            <div class="header-icons">
+                <div class="user-info flex gap-8 justify-center items-center">
+                    <a href="Cart.html"
+                        class="user__icon group border transition-colors border-slate-300 p-4 rounded-lg hover:bg-primary relative"
+                        type="button">
+                        <i class="bx bx-shopping-bag bx-md text-slate-500 group-hover:text-white"></i>
+                        <span
+                            class="counter absolute w-6 h-6 rounded-full -right-10 -bottom-4 bg-red-600 text-slate-200 flex items-center justify-center p-6">09</span>
+                    </a>
+
+                    <a href="login.html"
+                        class="user__icon border group transition-colors hover:bg-primary border-slate-300 p-4 rounded-lg"
+                        type="button">
+                        <i class="bx bx-user bx-md text-slate-500 group-hover:text-white"></i>
+                    </a>
+                    <a href="#"
+                        class="user__icon border group transition-colors hover:bg-primary border-slate-300 p-4 rounded-lg flex items-center justify-center gap-2"
+                        type="button">
+                        <i class="bx bx-phone-incoming bx-md text-slate-500 group-hover:text-white"></i>
+                        <sub class="text-xl group-hover:text-white font-yb-bld">021-342412</sub>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+            @Body
+    </main>
+        <section style="height: 300px;">
+        </section>
+
+
+
+
+
+
+
+
+
+
+
+        <footer class="footer bg-slate-800 min-h-96 relative mt-12">
+            <div class="footer-link-list pt-32 container mx-auto gap-8 pb-10">
+                <ul class="list-links min-w-fit ml-20">
+                    <li>
+                        <a href="#" class="flex flex-col gap-4 justify-center items-center text-center text-slate-200">
+                            <img class="w-24 h-24 rounded-full" src="./assets/images/logo.jpg" alt="" />
+                            <span class="font-yb-fat">شهر ملزومات اسماعیلی</span>
+                        </a>
+                        <p class="text-slate-300 text-[14px] font-normal text-clip text-center">
+                            ارائه دهنده تخصصی تجهیزات آشپزخانه
+                        </p>
+                    </li>
+                    <li class="flex items-center gap-2 mt-4 pb-4">
+                        <a href="#"
+                           class="w-20 h-20 flex items-center justify-center border border-slate-400 rounded-xl transition-all group hover:bg-primary">
+                            <i class="bx bxl-telegram bx-lg text-primary group-hover:text-slate-100"></i>
+                        </a>
+                        <a href="#"
+                           class="w-20 h-20 flex items-center justify-center border border-slate-400 rounded-xl group transition-all group hover:bg-gradient-to-bl hover:from-pink-500 hover:via-red-500 hover:to-yellow-500">
+                            <i class="bx bxl-instagram-alt bx-lg text-pink-600 group-hover:text-slate-100"></i>
+                        </a>
+
+                        <a href="#"
+                           class="w-20 h-20 flex items-center justify-center border border-slate-400 rounded-xl transition-all group hover:bg-green-500">
+                            <i class="bx bxl-whatsapp-square bx-lg text-green-500 group-hover:text-slate-100"></i>
+                        </a>
+                        <a href="#"
+                           class="w-20 h-20 flex items-center justify-center border border-slate-400 rounded-xl group transition-all hover:bg-blue-700">
+                            <i class="bx bxl-twitter bx-lg text-blue-700 group-hover:text-slate-100"></i>
+                        </a>
+                    </li>
+                </ul>
+                <ul class="list-links">
+                    <h1 class="mb-6 font-medium text-3xl">دسترسی سریع</h1>
+                    <li class="mr-4">
+                        <a href="#"
+                           class="flex group items-center gap-4 transition-all hover:bg-slate-100/20 px-2 py-3">
+                            <span class="w-4 h-4 rounded-full bg-yellow-500 group-hover:bg-green-500"></span>
+                            <span class="font-light">فروشگاه</span>
+                        </a>
+                    </li>
+                    <li class="mr-4">
+                        <a href="#"
+                           class="flex group items-center gap-4 transition-all hover:bg-slate-100/20 px-2 py-3">
+                            <span class="w-4 h-4 rounded-full bg-yellow-500 group-hover:bg-green-500"></span>
+                            <span class="font-light">خرید اقساطی</span>
+                        </a>
+                    </li>
+                    <li class="mr-4">
+                        <a href="#"
+                           class="flex group items-center gap-4 transition-all hover:bg-slate-100/20 px-2 py-3">
+                            <span class="w-4 h-4 rounded-full bg-yellow-500 group-hover:bg-green-500"></span>
+                            <span class="font-light">درباره ما</span>
+                        </a>
+                    </li>
+                    <li class="mr-4">
+                        <a href="#"
+                           class="flex group items-center gap-4 transition-all hover:bg-slate-100/20 px-2 py-3">
+                            <span class="w-4 h-4 rounded-full bg-yellow-500 group-hover:bg-green-500"></span>
+                            <span class="font-light">تماس با ما</span>
+                        </a>
+                    </li>
+                </ul>
+
+                <ul class="list-links">
+                    <h1 class="mb-6 font-medium text-3xl">لینک های مفید</h1>
+
+                    <li class="mr-4">
+                        <a href="#"
+                           class="flex group items-center gap-4 transition-all hover:bg-slate-100/20 px-2 py-3">
+                            <span class="w-4 h-4 rounded-full bg-yellow-500 group-hover:bg-green-500"></span>
+                            <span class="font-light">درگاه پرداخت پی پل</span>
+                        </a>
+                    </li>
+                    <li class="mr-4">
+                        <a href="#"
+                           class="flex group items-center gap-4 transition-all hover:bg-slate-100/20 px-2 py-3">
+                            <span class="w-4 h-4 rounded-full bg-yellow-500 group-hover:bg-green-500"></span>
+                            <span class="font-light">سبد خرید</span>
+                        </a>
+                    </li>
+                    <li class="mr-4">
+                        <a href="#"
+                           class="flex group items-center gap-4 transition-all hover:bg-slate-100/20 px-2 py-3">
+                            <span class="w-4 h-4 rounded-full bg-yellow-500 group-hover:bg-green-500"></span>
+                            <span class="font-light">سوالات متداول</span>
+                        </a>
+                    </li>
+                    <li class="mr-4">
+                        <a href="#"
+                           class="flex group items-center gap-4 transition-all hover:bg-slate-100/20 px-2 py-3">
+                            <span class="w-4 h-4 rounded-full bg-yellow-500 group-hover:bg-green-500"></span>
+                            <span class="font-light">دریافت نمایندگی</span>
+                        </a>
+                    </li>
+                    <li class="mr-4">
+                        <a href="#"
+                           class="flex group items-center gap-4 transition-all hover:bg-slate-100/20 px-2 py-3">
+                            <span class="w-4 h-4 rounded-full bg-yellow-500 group-hover:bg-green-500"></span>
+                            <span class="font-light">همکاری با ما</span>
+                        </a>
+                    </li>
+                    <li class="mr-4">
+                        <a href="#"
+                           class="flex group items-center gap-4 transition-all hover:bg-slate-100/20 px-2 py-3">
+                            <span class="w-4 h-4 rounded-full bg-yellow-500 group-hover:bg-green-500"></span>
+                            <span class="font-light">درگاه تجارت الکترونیک</span>
+                        </a>
+                    </li>
+                </ul>
+
+                <ul class="list-links">
+                    <h1 class="mb-6 font-medium text-3xl">قوانین و مقررات</h1>
+                    <li class="mr-4">
+                        <a href="#"
+                           class="flex group items-center gap-4 transition-all hover:bg-slate-100/20 px-2 py-3">
+                            <span class="w-4 h-4 rounded-full bg-yellow-500 group-hover:bg-green-500"></span>
+                            <span class="font-light">مجوز های فروش و اعتبارات</span>
+                        </a>
+                    </li>
+                    <li class="mr-4">
+                        <a href="#"
+                           class="flex group items-center gap-4 transition-all hover:bg-slate-100/20 px-2 py-3">
+                            <span class="w-4 h-4 rounded-full bg-yellow-500 group-hover:bg-green-500"></span>
+                            <span class="font-light">حریم خصوصی کاربران</span>
+                        </a>
+                    </li>
+                    <li class="mr-4">
+                        <a href="#"
+                           class="flex group items-center gap-4 transition-all hover:bg-slate-100/20 px-2 py-3">
+                            <span class="w-4 h-4 rounded-full bg-yellow-500 group-hover:bg-green-500"></span>
+                            <span class="font-light">تجربه خرید مشتری</span>
+                        </a>
+                    </li>
+                    <li class="mr-4">
+                        <a href="#"
+                           class="flex group items-center gap-4 transition-all hover:bg-slate-100/20 px-2 py-3">
+                            <span class="w-4 h-4 rounded-full bg-yellow-500 group-hover:bg-green-500"></span>
+                            <span class="font-light">خط مشی و مدیریت منابع</span>
+                        </a>
+                    </li>
+                </ul>
+
+                <ul class="list-links">
+                    <h1 class="mb-6 font-medium text-3xl">آدرس و شعب شمسا</h1>
+
+                    <li class="mr-4">
+                        <a href="#"
+                           class="flex group items-center gap-4 transition-all hover:bg-slate-100/20 px-2 py-3">
+                            <span class="w-4 h-4 rounded-full bg-yellow-500 group-hover:bg-green-500"></span>
+                            <span class="font-light text-[12px]">
+                                شعیه اول : سبزوار _ خیابان امیر مسعود شمالی _ پایین تر از چهارراه قاضی زاده _ شهر
+                                ملزومات اسماعیلی
+                            </span>
+                        </a>
+                    </li>
+                    <li class="mr-4">
+                        <a href="#"
+                           class="flex group items-center gap-4 transition-all hover:bg-slate-100/20 px-2 py-3">
+                            <span class="w-4 h-4 rounded-full bg-yellow-500 group-hover:bg-green-500"></span>
+                            <span class="font-light text-[12px]">
+                                شبعه دوم : مشهد خیابان طالقانی ضلع ۲۲ شمالی - پلاک ۲۴ -
+                                شهرم ملزومات اسماعیلی
+                            </span>
+                        </a>
+                    </li>
+                    <li class="mr-4">
+                        <a href="#"
+                           class="flex group items-center gap-4 transition-all hover:bg-slate-100/20 px-2 py-3">
+                            <span class="w-4 h-4 rounded-full bg-yellow-500 group-hover:bg-green-500"></span>
+                            <span class="font-light">تلفتن های تماس : ۰۳۲-۱۳۴۵۲۳ و ۳۴۳-۳۴۲۰۰۴</span>
+                        </a>
+                    </li>
+                    <li class="mr-4">
+                        <a href="#"
+                           class="flex group items-center gap-4 transition-all hover:bg-slate-100/20 px-2 py-3">
+                            <span class="w-4 h-4 rounded-full bg-yellow-500 group-hover:bg-green-500"></span>
+                            <i class="bx bxs-location-plus"></i>
+                            <span class="font-light">مسیر یابی در گوگل</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="h-24 flex items-end justify-center bg-slate-950/40 text-slate-300 pb-4 font-light">
+                طراحی و کد نویسی شده توسط
+                <a class="text-slate-400 px-4" href="https://t.me/mehdim2055" target="_blank"
+                   rel="noopener noreferrer">
+                    مرضیه
+                    اسماعیلی
+                </a>
+            </div>
+        </footer>
+</body>
